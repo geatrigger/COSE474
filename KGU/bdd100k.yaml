@@ -1,0 +1,16 @@
+# BDD100K dataset
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /bdd100k
+#     /yolov5
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../bdd100k/images/100k/train/  # 70000 images
+val:   ../bdd100k/images/100k/val/    # 10000 images
+test:  ../bdd100k/images/100k/test/   # 20000 images
+
+# number of classes
+nc: 10
+
+# class names
+names: ["bike", "bus", "car", "motor", "person", "rider", "traffic light", "traffic sign", "train", "truck"]
