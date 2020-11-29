@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# custom ignore
+KGC/OIDv4_ToolKit
+KGC/darknet/yolov4.conv.137
+KGC/darknet/yolov4.conv.137.1
+KGC/darknet/data/obj
+KGC/darknet/data/test
+KGC/backup*
